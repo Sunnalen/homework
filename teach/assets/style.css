@@ -20,7 +20,6 @@ body {
 
 .lesson {
     height: 100vh;
-    width: 100vw;
 
     display: flex;
     justify-content: center;
@@ -36,13 +35,47 @@ body {
     width: 1200px;
 
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 
     background: #fff;
     border-radius: 20px;
 }
 
 .lesson__title {
+    margin-bottom: 40px;
+
     font-size: 48px;
+    text-align: center;
 }
 
+.lesson__info {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.lesson__item {
+    width: 150px;
+    height: 150px;
+
+    border: 1px solid transparent;
+}
+
+.lesson__item--red {
+    width: 100%;
+    background-color: #da5555;
+}
+
+.lesson__item--blue {
+    background-color: #277ece;
+}
+
+.lesson__item--green {
+    background-color: #66cc68;
+}
+
+.lesson__item--transparent {
+    border-color: #933dbe;
+}

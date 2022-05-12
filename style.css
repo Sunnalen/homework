@@ -3,20 +3,17 @@
 }
 
 .list {
-  display: flex;
-  list-style:none;
   margin:0;
   padding:0;
-  flex-wrap: wrap;
 }
-
 .series {
   border: 4px double rgb(7, 14, 7);
-  flex: 1 1;
-  flex-wrap: wrap;
   background: rgb(233, 173, 10);
   color:rgb(4, 8, 8);
-  display:flex;
+}
+
+.list__item {
+  width: 500px;
 }
 
 .parent {
